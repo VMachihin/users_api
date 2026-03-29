@@ -1,4 +1,3 @@
-````md
 # User Service API
 
 REST API для управления пользователями.
@@ -249,8 +248,3 @@ curl -X PATCH http://localhost:3000/users/1/block \
 - пароль в базе хранится только в виде хэша
 - `email` уникален
 - `passwordHash` не возвращается в API-ответах
-
-```
-
-```
-````
